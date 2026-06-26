@@ -1,2 +1,2 @@
-#!/bin/bash
-python3 "$PYFILE"
+#!/usr/bin/env python3
+import os, subprocess, sys; subprocess.run([sys.executable, os.environ["PYFILE"]], check=True)

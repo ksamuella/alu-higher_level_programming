@@ -1,2 +1,2 @@
-#!/bin/bash
-python3 -c "$PYCODE"
+#!/usr/bin/env python3
+import os, subprocess, sys; subprocess.run([sys.executable, "-c", os.environ["PYCODE"]], check=True)

@@ -1,2 +1,2 @@
-#!/bin/bash 
-import os, subprocess, sys; subprocess.run([sys.executable, os.environ["PYFILE"]], check=True)
+#!/bin/bash
+print("C is fun!")

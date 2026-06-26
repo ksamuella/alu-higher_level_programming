@@ -1,3 +1,3 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import sys
-print(sum(int(arg) for arg in sys.argv[1:]))
+print(sum(int(x) for x in sys.argv[1:]))

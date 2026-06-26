@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import hidden_4
 for name in sorted(dir(hidden_4)):
     if not name.startswith("__"):
